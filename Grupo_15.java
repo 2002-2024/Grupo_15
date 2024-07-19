@@ -5,10 +5,6 @@
  */
 package grupo_15;
 
-/**
- *
- * @author Angie Martinez
- */
 public class Grupo_15 {
 
     /**
