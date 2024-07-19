@@ -15,7 +15,13 @@ public class Grupo_15 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+            // Crear instancias de Doctor y Deportista
+            Persona doctor = new Doctor("Juan", 45);
+            Persona deportista = new Deportista("Carlos", 25);
+
+            // Llamar a los métodos trabajar()
+            doctor.trabajar();       // Imprimirá: El doctor está tratando a los pacientes.
+            deportista.trabajar();   // Imprimirá: El deportista está entrenando.
+        }
     
 }
